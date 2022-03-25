@@ -6,7 +6,6 @@ import requests
 from PIL import Image
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-
 from utils import *
 
 QUERY_STRING = 'ChiPu'
@@ -39,7 +38,6 @@ browser.find_element(by=By.TAG_NAME, value='body').send_keys(Keys.CONTROL + Keys
 
 urls = get_image_urls(browser)
 print(urls)
-
 os.makedirs(os.path.join(os.getcwd(), QUERY_STRING), exist_ok=True)
 for i, url in enumerate(urls):
     download_images('./' + QUERY_STRING + '/', url, QUERY_STRING + str(i + 1) + '.jpg')
