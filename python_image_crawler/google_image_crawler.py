@@ -9,7 +9,7 @@ from selenium.webdriver.common.keys import Keys
 from utils import *
 
 QUERY_STRING = 'ChiPu'
-NUMBER_OF_IMAGE_TO_SAVE = 50
+NUMBER_OF_IMAGE_TO_SAVE = 500
 
 # Create browser object
 browser = webdriver.Chrome(service=Service('./chromedriver.exe'))
@@ -29,6 +29,10 @@ sleep(2)
 box.send_keys(Keys.ENTER)
 sleep(1)
 
+# we need to hide the windows
+browser.set_window_position(-10000, 0)
+
+
 # Auto scrolling to the bottom of the page
 scroll_to_bottom(browser)
 
@@ -36,7 +40,7 @@ scroll_to_bottom(browser)
     we need to loop through all of image and save them"""
 browser.find_element(by=By.TAG_NAME, value='body').send_keys(Keys.CONTROL + Keys.HOME)
 
-urls = get_image_urls(browser)
+urls = get_image_urls(browser, number_of_image=NUMBER_OF_IMAGE_TO_SAVE)
 print(urls)
 os.makedirs(os.path.join(os.getcwd(), QUERY_STRING), exist_ok=True)
 for i, url in enumerate(urls):

@@ -56,7 +56,7 @@ def get_image_urls(browser, number_of_image=50):
         for img in thumbnails:
             try:
                 img.click()
-                sleep(0.2)
+                sleep(0.1)
             except:
                 continue
             images = browser.find_elements(by=By.CLASS_NAME, value='n3VNCb')
