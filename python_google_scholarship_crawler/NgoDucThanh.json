@@ -1,0 +1,356 @@
+{
+   "root": [
+      {
+         "title": "An evaluation of deep learning methods for small object detection",
+         "authors": "ND Nguyen, T Do, TD Ngo, DD Le"
+      },
+      {
+         "title": "The video browser showdown: a live evaluation of interactive video search tools",
+         "authors": "K Schoeffmann, D Ahlstr\u00f6m, W Bailer, C Cob\u00e2rzan, F Hopfgartner, ..."
+      },
+      {
+         "title": "NII-HITACHI-UIT at TRECVID 2016.",
+         "authors": "DD Le, S Phan, VT Nguyen, B Renoust, TA Nguyen, VN Hoang, TD Ngo, ..."
+      },
+      {
+         "title": "An efficient method for face retrieval from large video datasets",
+         "authors": "TN Nguyen, TD Ngo, DD Le, S Satoh, BH Le, DA Duong"
+      },
+      {
+         "title": "Scalable face track retrieval in video archives using bag-of-faces sparse representation",
+         "authors": "BC Chen, YY Chen, YH Kuo, TD Ngo, DD Le, S Satoh, WH Hsu"
+      },
+      {
+         "title": "Robust face track finding in video using tracked points",
+         "authors": "TD Ngo, DD Le, S Satoh, DA Duong"
+      },
+      {
+         "title": "Face retrieval in large-scale news video datasets",
+         "authors": "TD Ngo, HT Vu, DD Le, S Satoh"
+      },
+      {
+         "title": "Measuring efficiency of Vietnamese banks: Accounting for nonperforming loans in a single-step stochastic cost frontier analysis",
+         "authors": "T Ngo, D Tripe"
+      },
+      {
+         "title": "Re-ranking for person re-identification",
+         "authors": "VH Nguyen, TD Ngo, KMTT Nguyen, DA Duong, K Nguyen, DD Le"
+      },
+      {
+         "title": "A text segmentation based approach to video shot boundary detection",
+         "authors": "DD Le, S Satoh, TD Ngo, DA Duong"
+      },
+      {
+         "title": "Evaluation of deep models for real-time small object detection",
+         "authors": "P Pham, D Nguyen, T Do, TD Ngo, DD Le"
+      },
+      {
+         "title": "When face-tracking meets social networks: a story of politics in news videos",
+         "authors": "B Renoust, T Kobayashi, TD Ngo, DD Le, SI Satoh"
+      },
+      {
+         "title": "A combination of spatial pyramid and inverted index for large-scale image retrieval",
+         "authors": "VT Nguyen, TD Ngo, MT Tran, DD Le, DA Duong"
+      },
+      {
+         "title": "AttRel: an approach to person re-identification by exploiting attribute relationships",
+         "authors": "NB Nguyen, VH Nguyen, TN Duc, DD Le, DA Duong"
+      },
+      {
+         "title": "Multimedia event detection using segment-based approach for motion feature",
+         "authors": "S Phan, TD Ngo, V Lam, S Tran, DD Le, DA Duong, S Satoh"
+      },
+      {
+         "title": "Video search based on semantic extraction and locally regional object proposal",
+         "authors": "TD Truong, VT Nguyen, MT Tran, TV Trieu, T Do, TD Ngo, DD Le"
+      },
+      {
+         "title": "Transfer AdaBoost SVM for link prediction in newly signed social networks using explicit and PNR features",
+         "authors": "AT Nguyen-Thi, PQ Nguyen, TD Ngo, TA Nguyen-Hoang"
+      },
+      {
+         "title": "Nii-uit-vbs: a video browsing tool for known item search",
+         "authors": "DD Le, V Lam, TD Ngo, VQ Tran, VH Nguyen, DA Duong, S Satoh"
+      },
+      {
+         "title": "Dictionary-guided scene text recognition",
+         "authors": "N Nguyen, T Nguyen, V Tran, MT Tran, TD Ngo, TH Nguyen, M Hoai"
+      },
+      {
+         "title": "Efficient large-scale multi-class image classification by learning balanced trees",
+         "authors": "TD Mai, TD Ngo, DD Le, DA Duong, K Hoang, S Satoh"
+      },
+      {
+         "title": "Video instance search via spatial fusion of visual words and object proposals",
+         "authors": "VT Nguyen, DD Le, MT Tran, TV Nguyen, TD Ngo, S Satoh, DA Duong"
+      },
+      {
+         "title": "Using textual semantic similarity to improve clustering quality of web video search results",
+         "authors": "PQ Nguyen, AT Nguyen-Thi, TD Ngo, TAH Nguyen"
+      },
+      {
+         "title": "Integrating spatial information into inverted index for large-scale image retrieval",
+         "authors": "BV Nguyen, D Pham, TD Ngo, DD Le, DA Duong"
+      },
+      {
+         "title": "NII-UIT: A tool for known item search by sequential pattern filtering",
+         "authors": "TD Ngo, VH Nguyen, V Lam, S Phan, DD Le, DA Duong, S Satoh"
+      },
+      {
+         "title": "Computational optimization for violent scenes detection",
+         "authors": "V Lam, SP Le, T Do, TD Ngo, DD Le, DA Duong"
+      },
+      {
+         "title": "Person re-identification with mutual re-ranking",
+         "authors": "NB Nguyen, VH Nguyen, TD Ngo, KMTT Nguyen"
+      },
+      {
+         "title": "Scene text detection based on structural features",
+         "authors": "K Nguyen, ND Thanh"
+      },
+      {
+         "title": "Nii-uit browser: a multimodal video search system",
+         "authors": "TD Ngo, VT Nguyen, VH Nguyen, DD Le, DA Duong, S Satoh"
+      },
+      {
+         "title": "Knowledge and Systems Engineering",
+         "authors": "TT Nguyen, AP Le, S Tojo"
+      },
+      {
+         "title": "Evaluation of low-level features for detecting violent scenes in videos",
+         "authors": "V Lam, DD Le, S Phan, S Satoh, DA Duong, TD Ngo"
+      },
+      {
+         "title": "Single-image crowd counting: a comparative survey on deep learning-based approaches",
+         "authors": "V Nguyen, TD Ngo"
+      },
+      {
+         "title": "Targeting bufferbloat in wi-fi networks: An emulator-based approach",
+         "authors": "TD Ngo, DD Le, H Sekiya, VH Pham, K Nguyen"
+      },
+      {
+         "title": "Clustering web video search results with convolutional neural networks",
+         "authors": "PQ Nguyen, T Do, AT Nguyen-Thi, TD Ngo, DD Le, TAH Nguyen"
+      },
+      {
+         "title": "A social network analysis of face tracking in news video",
+         "authors": "B Renoust, TD Ngo, DD Le, SI Satoh"
+      },
+      {
+         "title": "Violent scene detection using mid-level feature",
+         "authors": "V Lam, S Phan, TD Ngo, DD Le, DA Duong, S Satoh"
+      },
+      {
+         "title": "A software defined networking approach for guaranteeing delay in Wi-Fi networks",
+         "authors": "DTT Hien, TD Ngo, DD Le, H Sekiya, VH Pham, K Nguyen"
+      },
+      {
+         "title": "Semantic extraction and object proposal for video search",
+         "authors": "VT Nguyen, TD Ngo, DD Le, MT Tran, DA Duong, S Satoh"
+      },
+      {
+         "title": "NII-HITACHI-UIT at TRECVID 2017.",
+         "authors": "S Phan, M Klinkigt, VT Nguyen, TD Mai, AG Xalabarder, R Hinami, ..."
+      },
+      {
+         "title": "Using attribute relationships for person re-identification",
+         "authors": "NB Nguyen, VH Nguyen, TN Duc, DA Duong"
+      },
+      {
+         "title": "soybean",
+         "authors": "TD Ngo, DL Tran, VL Tran, TD Do, TD Pham"
+      },
+      {
+         "title": "How to Choose Deep Face Models for Surveillance System?",
+         "authors": "V Nguyen, T Do, VT Nguyen, TD Ngo, DA Duong"
+      },
+      {
+         "title": "Human action recognition from depth videos using multi-projection based representation",
+         "authors": "CQ Le, TD Ngo, DD Le, S Satoh, DA Duong"
+      },
+      {
+         "title": "Learning Balanced Trees for Large Scale Image Classification",
+         "authors": "TD Mai, TD Ngo, DD Le, DA Duong, K Hoang, S Satoh"
+      },
+      {
+         "title": "NII-KAORI-PERSON-SEARCH: A General Framework for Indexing and Retrieving People's Appearance in Large Video Archives",
+         "authors": "DD Le, TD Ngo, S Satoh"
+      },
+      {
+         "title": "Fast face sequence matching in large-scale video databases",
+         "authors": "HT Vu, TD Ngo, TN Nguyen, DD Le, S Satoh, BH Le, DA Duong"
+      },
+      {
+         "title": "Interpolation based anime face style transfer",
+         "authors": "ST Ho, VT Nguyen, TD Ngo"
+      },
+      {
+         "title": "NII Hitachi UIT at TRECVID 2019.",
+         "authors": "M Klinkigt, DD Le, A Hiroike, HQ Vo, M Chabra, Vu-Minh-Hieu Dang, ..."
+      },
+      {
+         "title": "Person re-identification with pre-trained deep learning models and attribute correlations",
+         "authors": "NB Nguyen, VH Nguyen, T Do, TD Ngo"
+      },
+      {
+         "title": "Efficient Large Scale Image Classification via Prediction Score Decomposition",
+         "authors": "DD Le, TD Mai, S Satoh, TD Ngo, DA Duong"
+      },
+      {
+         "title": "Nii-hitachi-uit at trecvid 2015 instance search",
+         "authors": "VT Nguyen, DD Le, A Salvador Aguilera, C Zu, DL Nguyen, MT Tran, ..."
+      },
+      {
+         "title": "Robust eye localization in video by combining eye detector and eye tracker",
+         "authors": "CN Duong, TCP Dinh, TD Ngo, DD Le, DA Duong, BH Le, S Satoh"
+      },
+      {
+         "title": "Improving image categorization by using multiple instance learning with spatial relation",
+         "authors": "TD Ngo, DD Le, S Satoh"
+      },
+      {
+         "title": "Few-shot object detection via baby learning",
+         "authors": "AKN Vu, ND Nguyen, KD Nguyen, VT Nguyen, TD Ngo, TT Do, ..."
+      },
+      {
+         "title": "UIT at VBS 2022: An Unified and Interactive Video Retrieval System with Temporal Search",
+         "authors": "K Ho, VX Dinh, HQ Nguyen, K Le, KD Tran, T Do, TD Mai, TD Ngo, DD Le"
+      },
+      {
+         "title": "DF-FSOD: A Novel Approach for Few-shot Object Detection via Distinguished Features",
+         "authors": "AKN Vu, TD Nguyen, VT Nguyen, TD Ngo"
+      },
+      {
+         "title": "A robust framework for mathematical formula detection",
+         "authors": "M Tran, T Pham, T Nguyen, T Do, TN Duc"
+      },
+      {
+         "title": "Unweighted Bipartite Matching For Robust Vehicle Counting",
+         "authors": "K Ho, HB Le, K Van Nguyen, T Nguyen, T Do, TD Ngo, TS Nguyen"
+      },
+      {
+         "title": "Multilingual-GAN: A Multilingual GAN-based Approach for Handwritten Generation",
+         "authors": "MKN Huu, ST Ho, VT Nguyen, TD Ngo"
+      },
+      {
+         "title": "MC-OCR Challenge 2021: An end-to-end recognition framework for Vietnamese Receipts",
+         "authors": "H Le, H To, H An, K Ho, K Nguyen, T Nguyen, T Do, TD Ngo, DD Le"
+      },
+      {
+         "title": "Searching For Desired Person Doing Desired Action based on Visual and Audio Feature in Large Scale Video Database",
+         "authors": "HQ Vo, DM Nguyen, T Do, VT Nguyen, ND Nguyen, TD Ngo, DD Le, ..."
+      },
+      {
+         "title": "U15-Logos: Unconstrained Logo Dataset with Evaluation by Deep learning Methods",
+         "authors": "ND Nguyen, T Nguyen, T Do, TD Ngo, DD Le"
+      },
+      {
+         "title": "An Investigation of Wi-Fi Bufferbloat Using a Wireless Emulator",
+         "authors": "TTH Do, TD Ngo, DD Le, H Sekiya, VH Pham, K Nguyen"
+      },
+      {
+         "title": "Measuring Crowd Collectiveness with Trajectory Smoothing",
+         "authors": "QNP Phu, V Nguyen, T Do, TD Ngo"
+      },
+      {
+         "title": "Persons-in-places: a deep features based approach for searching a specific person in a specific location",
+         "authors": "VT Nguyen, TD Ngo, MT Tran, DD Le, DA Duong"
+      },
+      {
+         "title": "Searching a specific person in a specific location using deep features",
+         "authors": "VT Nguyen, MT Tran, TD Ngo, DD Le, DA Duong"
+      },
+      {
+         "title": "News Archive Exploration Combining Face Detection and Tracking with Network Visual Analytics",
+         "authors": "B Renoust, TD Ngo, DD Le, SI Satoh"
+      },
+      {
+         "title": "Using node relationships for hierarchical classification",
+         "authors": "TD Mai, TD Ngo, DD Le, DA Duong, K Hoang, S Satoh"
+      },
+      {
+         "title": "Human Action Recognition from Depth Videos Using Pool of Multiple Projections with Greedy Selection",
+         "authors": "CQ Le, S Phan, TD Ngo, DD Le, S Satoh, DA Duong"
+      },
+      {
+         "title": "ACM INTERNATIONAL CONFERENCE PROCEEDING SERIES",
+         "authors": "SD Dvoenko, DO Pshenichny, VT Nguyen, MT Tran, TD Ngo, D Le D, ..."
+      },
+      {
+         "title": "Cross-View Action Recognition by Projection-Based Augmentation",
+         "authors": "CQ Le, TD Ngo, DD Le, S Satoh, DA Duong"
+      },
+      {
+         "title": "Large scale multi-class classification using latent classifiers",
+         "authors": "TD Mai, TD Ngo, DD Le, DA Duong, K Hoang, S Satoh"
+      },
+      {
+         "title": "Generalized Max Pooling for Action Recognition",
+         "authors": "T Nguyen, S Phan, TD Ngo"
+      },
+      {
+         "title": "Recommend-Me recommending query regions for image search",
+         "authors": "TD Ngo, S Phan, DD Le, S Satoh"
+      },
+      {
+         "title": "\u30b3\u30f3\u30c6\u30f3\u30c4\u30d9\u30fc\u30b9\u306e\u30d3\u30c7\u30aa\u691c\u7d22\u306e\u305f\u3081\u306e\u30b9\u30b1\u30fc\u30e9\u30d6\u30eb\u306a\u30a2\u30d7\u30ed\u30fc\u30c1",
+         "authors": "DUC Thanh, DLE Duy"
+      },
+      {
+         "title": "Scalable approaches for content based video retrieval (Special issue: The future of multimedia analysis and mining)",
+         "authors": "T DUC NGO, D DINH LE, S SATOH"
+      },
+      {
+         "title": "Scalable approaches for content based video retrieval",
+         "authors": "TDUC NGO, DD LE, S SATOH"
+      },
+      {
+         "title": "A Codeword Visualization Tool for Dense Trajectory Feature",
+         "authors": "S Phan, V Lam, S Tran, TD Ngo, DD Le, S Satoh"
+      },
+      {
+         "title": "Signal Image Technology and Internet Based Systems",
+         "authors": "TD Ngo"
+      },
+      {
+         "title": "Signboardtext: Text Detection and Recognition in In-the-Wild Signboard Images",
+         "authors": "T Do, T Tran, H Le, T Nguyen, TD Ngo, DD Le"
+      },
+      {
+         "title": "FACE TRACKING AND RECOGNITION WITH DEEP FEATURE IN CAMERA SURVEILLANCE SYSTEM",
+         "authors": "TV Trieu, HV Lam, V Nguyen, VT Nguyen, TD Ngo"
+      },
+      {
+         "title": "ROBBERY DETECTION SYSTEM IN STORE",
+         "authors": "CM Nguyen, TD Ngo"
+      },
+      {
+         "title": "KSE 2016 program committee",
+         "authors": "MH Abel, MB Aimar, A Alaei, N Aljohani, A Alzahrani, T Andrew, ..."
+      },
+      {
+         "title": "DEVELOPMENT OF A CITRUS INTEGRATED PEST MANAGEMENT EXTENSION PROGRAM IN VIET NAM",
+         "authors": "HH NGUYEN, VT NGUYEN, TD NGO, VC NGUYEN, VL PHAM, VC HO, ..."
+      },
+      {
+         "title": "Akagi, Masato 129 Akama, Seiki 209",
+         "authors": "\u00c9 Andr\u00e9, QH Bui, TH Bui, J Cabot, C Choppy, S Chujyou, DH Dang, ..."
+      },
+      {
+         "title": "ICSC 2011",
+         "authors": "I Industry"
+      },
+      {
+         "title": "Ngoc-Bao Nguyen, Vu-Hoang Nguyen, Thanh Ngo Duc, Duy-Dinh Le, and",
+         "authors": "DA Duong"
+      },
+      {
+         "title": "KSE 2015 Organizing Committee",
+         "authors": "DA Duong, S Tojo, M Le Nguyen, DD Le, TD Ngo, TA Nguyen, N Nguyen, ..."
+      },
+      {
+         "title": "BOOSTING GLOBAL SCENE CLASSIFICATION ACCURACY BY DISCRIMINATIVE REGION LOCALIZATION",
+         "authors": "TD Ngo, DD Le, S Satoh"
+      }
+   ]
+}
