@@ -11,7 +11,7 @@ import json
 
 
 QUERY_STRING = 'ChiPu'
-NUMBER_OF_IMAGE_TO_SAVE = 600
+NUMBER_OF_IMAGE_TO_SAVE = 100
 HIDE_DRIVER_WINDOWS = True
 
 # Create browser object
