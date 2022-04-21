@@ -5,7 +5,7 @@ Sinh viên thực hiện:
 	2. NGUYỄN THÀNH VƯƠNG 	19522542
 	3. LÊ THỊ THANH THANH	19520954
 
-Link repository trên github của nhóm: https://github.com/tuilatung/CS232/dblp-xml-parser
+Link repository trên github của nhóm: https://github.com/tuilatung/CS232/tree/master/dblp-xml-parser
 
 
 
