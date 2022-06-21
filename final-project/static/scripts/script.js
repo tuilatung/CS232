@@ -14,14 +14,20 @@ let file;
 let imgForm = document.querySelector(".get_img");
 var w;
 var h;
+var base64_image;
 
 button.onclick = () => {
   input.click();
 };
 
 inputSlider.addEventListener('change', function(){
-  window.alert('changed');
+  // window.alert('changed');
   // console.log('On Sliderbar changes...');
+  const URL = '/getslider'
+  const xhr = new XMLHttpRequest();
+  sender = inputSlider.value
+  xhr.open('POST', URL);
+  xhr.send(sender);
 })
 
 // when browse
@@ -92,6 +98,9 @@ function displayFile() {
         w = this.width;
         h = this.height;
       };
+      base64_image = image
+      // console.log(image)
+      
       imgTag = `<img src="${fileURL}" id="user__img">`;
       imgArea.innerHTML = imgTag;
     };

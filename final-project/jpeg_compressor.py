@@ -1,30 +1,15 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 import matplotlib.cm as cm
-import sys
 import os
 
-def main():
 
-
-        if(len(sys.argv)!=5):
-                print('inputBMPFileName outputJPEGFilename quality(from 1 to 100) DEBUGMODE(0 or 1)')
-                print('example:')
-                print('./lena.bmp ./output.jpg 80 0')
-                return
-
-        srcFileName = sys.argv[1]
-        outputJPEGFileName = sys.argv[2]
-        quality = float(sys.argv[3])
-        DEBUG_MODE = int(sys.argv[4])
-
-
+def jpeg_compress(image, quality):
+        
         B = 8 # blocksize 
-        img1 = cv2.imread(srcFileName)
+        # img1 = cv2.imread(srcFileName)
+        img1 = image
         h, w = np.array(img1.shape[:2])//B * B
         img1= img1[:h, :w]
 
@@ -34,11 +19,6 @@ def main():
         img2[:,:,1]=img1[:,:,1]
         img2[:,:,2]=img1[:,:,0]
 
-        size_of_original = os.path.getsize(srcFileName)
-
-        if DEBUG_MODE:
-                plt.title(f'Original with size={size_of_original}')
-                plt.imshow(img2)
 
         QY=np.array([[16,11,10,16,24,40,51,61],
                                 [12,12,14,19,26,48,60,55],
@@ -79,18 +59,14 @@ def main():
         scale = scale / 100.0
         Q=[QY*scale,QC*scale,QC*scale]
 
-
         scol =  B
         srow = B
-
-
 
         TransAll=[]
         TransAllQuant=[]
         ch=['Y','Cr','Cb']
-        # plt.figure()
         for idx,channel in enumerate(imSub):
-                # plt.subplot(1,3,idx+1)
+
                 channelrows=channel.shape[0]
                 channelcols=channel.shape[1]
                 Trans = np.zeros((channelrows,channelcols), np.float32)
@@ -113,11 +89,6 @@ def main():
                         sr=int(np.floor(srow/SSV))
                         sc=int(np.floor(scol/SSV))
                         selectedTrans=Trans[sr*B:(sr+1)*B,sc*B:(sc+1)*B]
-                if DEBUG_MODE:
-                        pass
-                        # plt.imshow(selectedTrans,cmap=cm.jet,interpolation='nearest')
-                        # plt.colorbar(shrink=0.5)
-                        # plt.title('DCT of '+ch[idx])
 
 
         DecAll=np.zeros((h,w,3), np.uint8)
@@ -139,26 +110,20 @@ def main():
 
 
         reImg=cv2.cvtColor(DecAll, cv2.COLOR_YCrCb2RGB)
-        # reImg = np.reshape(reImg, (reImg.shape[1], reImg.shape[0], reImg.shape[2]))
-        # cv2.imwrite('BackTransformedQuant.jpg', reImg)
-        plt.figure()
+
         img3=np.zeros(img1.shape,np.uint8)
-        img3[:,:,0]=reImg[:,:,2]
+        img3[:,:,0]=reImg[:,:,0]
         img3[:,:,1]=reImg[:,:,1]
-        img3[:,:,2]=reImg[:,:,0]
+        img3[:,:,2]=reImg[:,:,2]
 
 
         # normalization shape
         img3 = img3[:-8,:-8,:]
-        cv2.imwrite(outputJPEGFileName, img3)
-        size_of_compressed = os.path.getsize(outputJPEGFileName)
-        if DEBUG_MODE:
-                plt.imshow(img3[:,:,::-1])
-                plt.title(f'Compressed with size={size_of_compressed}')
-                plt.show()
-
-        return (size_of_original, size_of_compressed)
+        return img3
+        
 
 if __name__ == "__main__":
-        original_size, compressed_size =  main()
-        print("Compressed ratio = %.2f" % (original_size / compressed_size))
+        image = cv2.imread('static/uploads/a.jpg')
+        compress = jpeg_compress(image, quality=20)
+        plt.imshow(compress)
+        plt.show()

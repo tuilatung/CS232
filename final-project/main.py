@@ -20,9 +20,13 @@ def upload_form():
 	return render_template('home.html')
 
 
-@app.route("/getimage")
-def get_img():
-    return "compressed_animal1.jpg"
+@app.route('/getslider', methods=['GET', 'POST'])
+def get_slider():
+	data = request.data
+	k = int(data)
+	print(k)
+	return "None"
+
 
 if __name__ == "__main__":
     app.debug = True
